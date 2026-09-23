@@ -1,7 +1,7 @@
 #!/bin/bash
 # Hospital Admin Script
 
-# Member 1 (The Architect)
+# iAN(The Architect)
 initialize_system() {
     echo "Initializing system environment..."
 
@@ -29,7 +29,7 @@ initialize_system() {
     echo "Initialization complete."
 }
 
-# Execution logic (Member 3: The Orchestrator)
+# BENJAMIN (The Orchestrator)
 echo "Running system setup..."
 initialize_system   # <-- This is how you call the function
 echo "System Environment Secured on $(date)"
