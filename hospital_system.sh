@@ -30,7 +30,4 @@ initialize_system() {
 }
 
 # BENJAMIN (The Orchestrator)
-echo "Running system setup..."
-initialize_system   # <-- This is how you call the function
-echo "System Environment Secured on $(date)"
 
