@@ -31,11 +31,10 @@ initialize_system() {
 
 # BENJAMIN (The Security Lead)
 secure_data(){
-chmod 600 active_logs
+chmod 700 active_logs
 ls -l
 }
 
 initialize_system
 secure_data
-
 echo "System Environment Secured - $(date)"
