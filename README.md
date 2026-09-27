@@ -1,4 +1,4 @@
-# Coding-lab_Group20 — KNH Hospital Monitoring System
+# Coding-lab_Group20 KNH Hospital Monitoring System
 
 ## Overview
 This project simulates a hospital monitoring pipeline for Kenyatta National
@@ -9,14 +9,14 @@ Heart Rate, Temperature, and Water Usage readings and writes them to
 ## Components
 | File | Purpose |
 |---|---|
-| `hospital_system.py` | Data-generating engine. `start` writes readings every 2s to `active_logs/*.log`; `stop` halts the running process via `/tmp/hospital_system.pid`. |
-| `hospital_admin.sh` | Creates `active_logs/`, `archived_logs/`, `reports/` and locks down permissions on `active_logs/` (owner-only). |
+| `hospital_system.py` | Data-generating engine. `start` writes readings every 2s to `active_logs/*.log`; `stop` halts the running iprocess via `/tmp/hospital_system.pid`. |
+| `hospital_admin.sh` | Creates `active_logs/`, `archived_logs/`, `reports/` and locks down permissions on `active_logs/` (owner only). |
 | `hospital_analysis.sh` | Scans live logs for `CRITICAL` readings and reports on average ICU water usage. |
 | `hospital_archive.sh` | Rotates logs from `active_logs/` into timestamped files in `archived_logs/`, then recreates empty active logs. |
 | `.gitignore` | Excludes generated log/report data and the PID file from version control (no patient data on GitHub). |
 
 ## Log format
-Each log line in `active_logs/` is comma-separated:
+Each log line in `active_logs/` is comma separated:
 ```
 Timestamp,Device_ID,Value,Status
 
