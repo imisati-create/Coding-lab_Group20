@@ -3,7 +3,7 @@
 |---|---|---|
 | iAN | Architect | `initialize_system()` in `hospital_admin.sh` |
 | Benjamin | Security Lead | `secure_data()` in `hospital_admin.sh` |
-| iAN | Orchestrator | Main execution logic in `hospital_admin.sh` |
-| Miriam | Archivist | `hospital_archive.sh` |
-| Kevine | Clinical Analyst | `process_vitals()` in `hospital_analysis.sh` |
-| Kevine | Facility Auditor | `water_audit()` in `hospital_analysis.sh` |
+| Ian| Orchestrator | Main execution logic in `hospital_admin.sh` |
+| Kevine| Archivist | `hospital_archive.sh` |
+| Miriam | Clinical Analyst | `process_vitals()` in `hospital_analysis.sh` |
+| Kevine & Miriam | Facility Auditor | `water_audit()` in `hospital_analysis.sh` |
