@@ -1,4 +1,5 @@
 #!/bin/bash
+<<<<<<< HEAD
 # Hospital Admin Script
 
 # iAN(The Architect)
@@ -29,5 +30,28 @@ initialize_system() {
     echo "Initialization complete."
 }
 
-# BENJAMIN (The Orchestrator)
+# BENJAMIN (The Security Lead)
+secure_data(){
+chmod 700 active_logs
+ls -l
+}
 
+initialize_system
+secure_data
+echo "System Environment Secured - $(date)"
+=======
+
+# Ian : The Architect
+initialize_system() {
+    for dir in active_logs archived_logs reports
+    do
+        if [ ! -d "$dir" ]; then
+            echo "Creating $dir directory..."
+            mkdir "$dir"
+        else
+            echo "$dir already exists."
+        fi
+    done
+}
+
+>>>>>>> origin/ian-architect

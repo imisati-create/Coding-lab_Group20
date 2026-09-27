@@ -10,6 +10,7 @@ TEMPERATURE_LOG="$BASE_DIR/active_logs/temperature.log"
 REPORT="$BASE_DIR/reports/critical_alerts.txt"
 
 # KEVINE (Clinical Analyst)
+
 process_vitals() {
 
     echo "== Processing Critical Vitals =="
@@ -36,6 +37,7 @@ process_vitals() {
 }
 
 # MIRIAM (Facility Auditor)
+
 water_audit() {
 
     echo "== Auditing Water Usage =="
